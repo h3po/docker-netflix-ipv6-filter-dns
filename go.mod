@@ -1,4 +1,4 @@
-module github.com/h3po/netflixv6
+module github.com/h3po/docker-netflix-ipv6-filter-dns
 
 go 1.16
 
