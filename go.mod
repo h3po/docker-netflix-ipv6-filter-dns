@@ -1,4 +1,4 @@
-module github.com/acohn/netflix-v4
+module github.com/h3po/netflixv6
 
 go 1.16
 

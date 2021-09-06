@@ -105,7 +105,7 @@ func handleNetflixRequest(writer dns.ResponseWriter, req *dns.Msg) {
 func filterRRSet(rrset []dns.RR) (ret []dns.RR) {
 	for _, rr := range rrset {
 		header := rr.Header()
-		if header.Rrtype != dns.TypeAAAA || header.Class != dns.ClassINET {
+		if header.Rrtype != dns.TypeA || header.Class != dns.ClassINET {
 			ret = append(ret, rr)
 		}
 	}

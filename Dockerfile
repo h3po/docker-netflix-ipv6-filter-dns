@@ -5,5 +5,5 @@ WORKDIR /app
 
 RUN go get && go build
 
-ENTRYPOINT /app/netflix-v4 
+ENTRYPOINT /app/netflix-v6
 CMD ["-d"]
